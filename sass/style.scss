@@ -125,6 +125,9 @@ body {
 		font-size: 16px;
 	}	
 }
+i {
+	font-size: 50px;
+}
 a {
 	color: $brand-primary;
 	@include transition(.5s);

@@ -33,6 +33,19 @@ a {
 
 p {
   margin-bottom: 1.5em; }
+  i {
+    font-size: 30px;
+  }
+  #special{
+    display: grid;
+    column-gap: 50px;
+  }
+.column-1{
+  grid-column: 1;
+}
+.column-2{
+  grid-column: 2;
+}
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
@@ -732,6 +745,11 @@ body.offcanvas {
   font-size: 16px;
   font-family: "Quicksand", Arial, sans-serif;
   margin-bottom: 10px; }
+.progress-wrap h3{
+  display: flex;
+  justify-content: space-between;
+  align-items: cente;
+}
 
 .progress {
   height: 6px;
@@ -952,8 +970,8 @@ body.offcanvas {
       position: relative;
       height: 300px; }
       .project .desc .con .icon {
-        position: absolute;
-        bottom: 20px;
+       margin-bottom: 0;
+        top: 20px;
         left: 20px;
         right: 20px; }
         .project .desc .con .icon span {
