@@ -22,9 +22,16 @@ body {
       font-size: 16px; } }
 
 section{
-  margin-left: 30px;
+  margin-left: 50px;
 }
-
+aside{
+  margin-right: 50px;
+}
+#colorlib-main{
+  max-width: 1000px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
 a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
@@ -98,7 +105,7 @@ figure {
   width: 300px;
   position: fixed;
   overflow-y: scroll;
-  z-index: 1001;
+  z-index: 0;
   background: #f2f3f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -374,6 +381,7 @@ body.offcanvas {
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
+    max-width: 500px;
     top: 0;
     -moz-transform: translateX(300px);
     -webkit-transform: translateX(300px);
